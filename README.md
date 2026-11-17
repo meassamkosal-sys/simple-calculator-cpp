@@ -1,38 +1,53 @@
-    Simple calculator
--Technology: 
-    -C++
-    -switch, do...while loop, if/else, cin/cout
+# Simple Calculator
 
-+Features: 
-    - Addition, Subtraction, Multiplication and division
-    - Check division by zero
-    - Detected invalid operators
-    - Let user calculate agian or exist
+A command-line calculator written in C++. The user enters two numbers and an operator, and the program shows the result. The user can calculate as many times as they want.
 
-Make sure you have a C++ compiler such as g++ installed
+## Technology
 
-+Example:
-    1. Enter first number: 10
-    2. Enter second number: 5
-    3. Enter the operation (+, -, *, /): *
-    4. Result: 10 * 5 = 50
-    5. Chosing calcuate again or exit
-    if  exit
-    1. Calculate again
-    2. Exit
+- C++
+- `switch`, `do...while` loop, `if/else`, `cin`/`cout`
+
+## Features
+
+- Addition, subtraction, multiplication and division
+- Checks for division by zero
+- Detects invalid operators
+- Lets the user calculate again or exit
+
+## How to Compile and Run
+
+Make sure a C++ compiler such as g++ is installed.
+
+bash
+g++ calculator.cpp -o calculator
+./calculator
+
+Example
+
+Enter first number: 10
+Enter second number: 5
+Enter the operation (+, -, *, /): *
+Result: 10 * 5 = 50
+
+1. Calculate again
+2. Exit
+Please enter your choice: 1
+Enter first number: 8
+Enter second number: 4
+Enter the operation (+, -, *, /): *
+Result: 8 * 4 = 32
+
+1. Calculate again
+2. Exit
 Please enter your choice: 2
 Good bye
-    if calculate again
-    1. Calculate again
-    2. Exit
-Please enter your choice: 1
-    1. Enter first number: 8
-    2. Enter second number: 4
-    3. Enter the operation (+, -, *, /): *
-    4. Result: 8 * 4 = 32
 
-+What I learn
-I learned how to use switch condition, do while loop, make input statement and output statement
+## What I Learned
 
-+Plan in future
-I will add more operator, more number to input and make it easier for user to use.
+I learned how to use `switch` statements and `do...while` loops, and how to take input and print output in C++.
+
+## Future Plans
+
+- Add input validation for non-numeric input
+- Add more operators
+- Split the code into functions
